@@ -299,10 +299,14 @@ function handleCat(file) {
             addOutput('Veritas/Cohesity (2022-2024): SaaS Platform, Microservices, Notification Architecture, EVLA Scale', 'output');
             break;
         case 'projects':
+            addOutput('--- Enterprise Architecture ---', 'output');
             addOutput('  AI-Powered Query Resolution Agent     - Python, LLMs, LangChain', 'output');
             addOutput('  Cloud Cost Optimization Toolkit       - GCP, Dataflow, Python, Terraform', 'output');
             addOutput('  Cross-Cloud Event Processing Platform - Kafka, Pub/Sub, Java', 'output');
             addOutput('  Smart Notification & Import/Export    - Angular, Spring Boot, Kafka, PostgreSQL', 'output');
+            addOutput('', 'output');
+            addOutput('--- Open Source & Personal ---', 'output');
+            addOutput('  fileversiond                          - Rust daemon for automatic local file versioning', 'output');
             break;
         default:
             addOutput(`cat: ${file}: No such file or directory`, 'error');
