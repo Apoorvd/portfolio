@@ -182,7 +182,7 @@ function processCommand(cmd) {
 
         case 'whoami':
             addOutput('Name:    Apoorv Dubey', 'output');
-            addOutput('Role:    Platform & Backend Engineer', 'output');
+            addOutput('Role:    Full Stack Engineer', 'output');
             addOutput('Status:  Open to opportunities', 'output');
             break;
 
@@ -249,8 +249,8 @@ function processCommand(cmd) {
             addOutput('', 'output');
             addOutput('        <span class="highlight">visitor</span>@<span class="highlight">apoorv.dev</span>', 'output');
             addOutput('        <span class="dir">OS</span>:     Web Terminal v2026', 'output');
-            addOutput('        <span class="dir">Host</span>:   Platform Engineer Portfolio', 'output');
-            addOutput('        <span class="dir">Role</span>:   Platform & Backend Engineer', 'output');
+            addOutput('        <span class="dir">Host</span>:   Full Stack Engineer Portfolio', 'output');
+            addOutput('        <span class="dir">Role</span>:   Full Stack Engineer', 'output');
             addOutput('        <span class="dir">Stack</span>:  Java, Python, GCP, Kafka, BigQuery', 'output');
             addOutput('        <span class="dir">Theme</span>:  Dark Terminal (Green)', 'output');
             addOutput('', 'output');
@@ -277,7 +277,7 @@ function handleCat(file) {
         case 'about':
             addOutput('const engineer = {', 'output');
             addOutput('  name: "Apoorv Dubey",', 'output');
-            addOutput('  role: "Platform & Backend Engineer",', 'output');
+            addOutput('  role: "Full Stack Engineer",', 'output');
             addOutput('  education: "B.Tech in CS @ UPES",', 'output');
             addOutput('  experience: "4+ years",', 'output');
             addOutput('  focus: "Multi-tenant SaaS, distributed systems, GCP"', 'output');
@@ -295,8 +295,9 @@ function handleCat(file) {
             addOutput('}', 'output');
             break;
         case 'experience':
-            addOutput('UKG (2024-Present): AI Agent, Cloud Ops, Event Platform, Data Fix, Java 17 Migration', 'output');
-            addOutput('Veritas/Cohesity (2022-2024): SaaS Platform, Microservices, Notification Architecture, EVLA Scale', 'output');
+            addOutput('UKG (Aug 2024-Present): AI Agent, SaaS Admin Portal, Cloud Cost Opt, Java 21 Migration', 'output');
+            addOutput('Veritas (Jul 2022-Aug 2024): SaaS Platform, Microservices, RxJS/Java Perf Tuning, Arch Scale', 'output');
+            addOutput('Veritas Intern (Jan 2022-Jul 2022): Cost Opt, Perf Engineering, DevOps Automation, Python Reporting', 'output');
             break;
         case 'projects':
             addOutput('--- Enterprise Architecture ---', 'output');
